@@ -35,7 +35,9 @@ function App() {
 
   return (
     <>
-      <div className="bg-[url('../assets/bg1.jpg')] w-full h-screen " >
+      <div className="bg-[url('../assets/bg1.jpg')] w-full h-20"></div>
+
+      <div className="bg-[url('../assets/bg1.jpg')] w-full h-screen mt-0 " >
        <Navbar/>
         <ExpenseForm addExpense={addExpense}/>
         <ExpenseList expenses={expenses}/>

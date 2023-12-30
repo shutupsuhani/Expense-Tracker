@@ -52,7 +52,7 @@ const ExpenseForm = ({ addExpense }) => {
 
  return (
     <>
-      <div className="w-3/4 h-7/10 shadow-md items-center m-auto mt-10 ">
+      <div className="w-3/4 h-7/10 shadow-md items-center m-auto  px-6 py-3 ">
         <div className=" h-3/4">
           <form className="backdrop-blur-sm bg-white/30 shadow-md rounded px-8 pt-6 pb-8 mb-4 " onSubmit={handleSubmit}>
             <h3 className="title text-center  text-white font-bold text-2xl">

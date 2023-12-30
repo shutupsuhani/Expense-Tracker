@@ -4,7 +4,7 @@ const Navbar = () => {
 
     
     <>
-    <header className="relative  lg:px-16 px-4 backdrop-blur-sm bg-white/30 flex flex-wrap items-center py-4 shadow-md">
+    <header className="fixed top-0 left-0 right-0 z-50 lg:px-16 px-4 backdrop-blur-sm bg-white/30 flex flex-wrap items-center py-4 shadow-md">
     <div className="flex-1 flex  ">
         <img src="../assets/logo.png" className="h-12 w-12 rounded-full"/>
         <a href="#" className="text-2xl text-white font-bold ml-4 ">Expense Tracker</a>
