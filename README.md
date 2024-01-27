@@ -1,5 +1,6 @@
 # Expense-Tracker
 Expense Tracker
+It used to calculate monthly expense of an individual
 
 Tech-Stack Used
 >Vite-React
